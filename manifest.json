@@ -4,7 +4,7 @@
     "version": "1.0",
     
     "description": "This Chrome extension displays news to the user each time they open a new tab",
-    
+
     
     "manifest_version": 2,
     "incognito": "split",
@@ -18,6 +18,6 @@
        "api.genius.com"
      ],
   "icons": {
-      "128": "icons8-news-64.png"
+      "128": "icon.png"
       }
   }
