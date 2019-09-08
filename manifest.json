@@ -1,0 +1,23 @@
+{
+    "name": "Same tab news extension",
+    
+    "version": "1.0",
+    
+    "description": "This Chrome extension displays news to the user each time they open a new tab",
+    
+    
+    "manifest_version": 2,
+    "incognito": "split",
+    
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    
+    "permissions": [
+       "activeTab",
+       "api.genius.com"
+     ],
+  "icons": {
+      "128": "icons8-news-64.png"
+      }
+  }
